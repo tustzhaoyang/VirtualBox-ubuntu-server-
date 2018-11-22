@@ -29,7 +29,7 @@ http://blog.csdn.net/zhaihaifei/article/details/40055383
 		
 		·最后再执行上述命令，成功后的截图如下： 
 		
-		 ![Image text](https://github.com/tustzhaoyang/VirtualBox-ubuntu-server-/blob/master/image/20170919151313704.jpg)
+![Image text](https://github.com/tustzhaoyang/VirtualBox-ubuntu-server-/blob/master/image/20170919151313704.jpg)
 	
 	·执行安装命令，sudo /mnt/VBoxLinuxAdditions.run， 不同版本的.run文件名可能有区别
 
