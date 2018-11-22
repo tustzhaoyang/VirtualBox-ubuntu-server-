@@ -39,3 +39,10 @@ http://blog.csdn.net/zhaihaifei/article/details/40055383
 	执行共享文件夹的挂载命令， sudo mount -t vboxsf [名称] [挂载后的本地路径]，该路径可以填/mnt/share 当然，你需要先mkdir share
 	
 	·然后在/mnt/share下可以找到test.txt
+		·在主机和虚拟机之间共享文件（夹)。但是初次使用共享文件夹会产生如下错误：
+			-bash: cd: sf_share/: Permission denied
+		· stat sf_share
+		查看文件更多信息
+		使用命令 usermod -aG vboxsf username
+		解释：username 为你自己的用户名。参数G附属组
+		重启之后即可访问共享文件夹。
